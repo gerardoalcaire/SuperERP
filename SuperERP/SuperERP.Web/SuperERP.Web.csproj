@@ -180,9 +180,17 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SuperERP.DAL\SuperERP.DAL.csproj">
-      <Project>{42e4e633-93c0-4f93-91c7-85049b4ca2a5}</Project>
-      <Name>SuperERP.DAL</Name>
+    <ProjectReference Include="..\SuperERP.Compras\SuperERP.Compras.csproj">
+      <Project>{89a3a0ec-6eef-4110-8099-77348639f77d}</Project>
+      <Name>SuperERP.Compras</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperERP.Financeiro\SuperERP.Financeiro.csproj">
+      <Project>{92d5dfd1-96af-4ba3-b246-e456236c3356}</Project>
+      <Name>SuperERP.Financeiro</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperERP.Vendas\SuperERP.Vendas.csproj">
+      <Project>{672ddd41-a3a6-4870-85cf-c0fef3ad8263}</Project>
+      <Name>SuperERP.Vendas</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
