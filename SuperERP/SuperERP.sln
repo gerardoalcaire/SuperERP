@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperERP.Web", "SuperERP.Web\SuperERP.Web.csproj", "{F3E2BF60-57FA-400F-B3E9-06FDAA4550C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperERP.DAL", "SuperERP.DAL\SuperERP.DAL.csproj", "{42E4E633-93C0-4F93-91C7-85049B4CA2A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperERP.Vendas", "SuperERP.Vendas\SuperERP.Vendas.csproj", "{672DDD41-A3A6-4870-85CF-C0FEF3AD8263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperERP.Compras", "SuperERP.Compras\SuperERP.Compras.csproj", "{89A3A0EC-6EEF-4110-8099-77348639F77D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperERP.Financeiro", "SuperERP.Financeiro\SuperERP.Financeiro.csproj", "{92D5DFD1-96AF-4BA3-B246-E456236C3356}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{F3E2BF60-57FA-400F-B3E9-06FDAA4550C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3E2BF60-57FA-400F-B3E9-06FDAA4550C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3E2BF60-57FA-400F-B3E9-06FDAA4550C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42E4E633-93C0-4F93-91C7-85049B4CA2A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E4E633-93C0-4F93-91C7-85049B4CA2A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E4E633-93C0-4F93-91C7-85049B4CA2A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E4E633-93C0-4F93-91C7-85049B4CA2A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{672DDD41-A3A6-4870-85CF-C0FEF3AD8263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672DDD41-A3A6-4870-85CF-C0FEF3AD8263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672DDD41-A3A6-4870-85CF-C0FEF3AD8263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672DDD41-A3A6-4870-85CF-C0FEF3AD8263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A3A0EC-6EEF-4110-8099-77348639F77D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A3A0EC-6EEF-4110-8099-77348639F77D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A3A0EC-6EEF-4110-8099-77348639F77D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A3A0EC-6EEF-4110-8099-77348639F77D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92D5DFD1-96AF-4BA3-B246-E456236C3356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D5DFD1-96AF-4BA3-B246-E456236C3356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D5DFD1-96AF-4BA3-B246-E456236C3356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D5DFD1-96AF-4BA3-B246-E456236C3356}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
