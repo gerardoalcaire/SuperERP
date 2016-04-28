@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{89A3A0EC-6EEF-4110-8099-77348639F77D}</ProjectGuid>
+    <ProjectGuid>{C3FCE860-38B8-4983-BD44-9F54C218399E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SuperERP.Compras</RootNamespace>
-    <AssemblyName>SuperERP.Compras</AssemblyName>
+    <RootNamespace>Teste</RootNamespace>
+    <AssemblyName>Teste</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,12 +41,6 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SuperERP.DAL\SuperERP.DAL.csproj">
-      <Project>{42e4e633-93c0-4f93-91c7-85049b4ca2a5}</Project>
-      <Name>SuperERP.DAL</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
