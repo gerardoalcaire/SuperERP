@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Data.Entity.ModelConfiguration;
 
-namespace SuperERP.Web.Models.Mapping
+namespace SuperERP.DAL.Models.Mapping
 {
     public class Status_VendaMap : EntityTypeConfiguration<Status_Venda>
     {

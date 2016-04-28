@@ -1,8 +1,8 @@
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
-using SuperERP.Web.Models.Mapping;
+using SuperERP.DAL.Models.Mapping;
 
-namespace SuperERP.Web.Models
+namespace SuperERP.DAL.Models
 {
     public partial class SuperERPContext : DbContext
     {
