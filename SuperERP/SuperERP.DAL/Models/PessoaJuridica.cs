@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace SuperERP.Web.Models
+namespace SuperERP.DAL.Models
 {
     public partial class PessoaJuridica
     {
