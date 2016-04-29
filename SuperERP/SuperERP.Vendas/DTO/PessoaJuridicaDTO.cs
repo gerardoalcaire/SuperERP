@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SuperERP.DAL.Models;
 
-namespace SuperERP.Vendas
+namespace SuperERP.Vendas.DTO
 {
-    public class CadastroCliente
+    public class PessoaJuridicaDTO
     {
-        Categoria categoria = new Categoria();
     }
 }
