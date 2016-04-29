@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SuperERP.DAL.Models
 {
-    public partial class PessoaFisica
+    public class PessoaFisica
     {
         public PessoaFisica()
         {
