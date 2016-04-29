@@ -1,10 +1,11 @@
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using SuperERP.DAL.Models.Mapping;
+using SuperERP.DAL.Models;
 
-namespace SuperERP.DAL.Models
+namespace SuperERP.DAL.Context
 {
-    public partial class SuperERPContext : DbContext
+    public class SuperERPContext : DbContext
     {
         static SuperERPContext()
         {
@@ -14,6 +15,7 @@ namespace SuperERP.DAL.Models
         public SuperERPContext()
             : base("Name=SuperERPContext")
         {
+            Configuration.LazyLoadingEnabled = false;
         }
 
         public DbSet<Categoria> Categorias { get; set; }
