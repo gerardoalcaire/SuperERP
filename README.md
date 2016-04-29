@@ -20,6 +20,11 @@ Serviços<br>
 Transportadoras<br>
 Estoque<br>
 
+Empresa<br>
+Usuario<br>
+Perfil<br>
+Funcionalidades<br>
+
 ## Grupo 4 - Financeiro - Diogo
 Movimentações<br>
 Contas Bancarias<br>
