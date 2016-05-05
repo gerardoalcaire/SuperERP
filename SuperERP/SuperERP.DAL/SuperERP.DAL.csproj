@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{42E4E633-93C0-4F93-91C7-85049B4CA2A5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SuperERP.DAL</RootNamespace>
+    <AssemblyName>SuperERP.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Categoria.cs" />
+    <Compile Include="Models\ClienteFornecedor.cs" />
+    <Compile Include="Models\ClienteFornecedorContato.cs" />
+    <Compile Include="Models\ClienteFornecedorEndereco.cs" />
+    <Compile Include="Models\Compra.cs" />
+    <Compile Include="Models\Compra_Ativos.cs" />
+    <Compile Include="Models\Contrato_Venda.cs" />
+    <Compile Include="Models\DadosBancariosFornCliente.cs" />
+    <Compile Include="Models\Dados_Bancarios.cs" />
+    <Compile Include="Models\Empresa.cs" />
+    <Compile Include="Models\Forma_Pgto.cs" />
+    <Compile Include="Models\Funcionalidade.cs" />
+    <Compile Include="Mapping\CategoriaMap.cs" />
+    <Compile Include="Mapping\ClienteFornecedorContatoMap.cs" />
+    <Compile Include="Mapping\ClienteFornecedorEnderecoMap.cs" />
+    <Compile Include="Mapping\ClienteFornecedorMap.cs" />
+    <Compile Include="Mapping\CompraMap.cs" />
+    <Compile Include="Mapping\Compra_AtivosMap.cs" />
+    <Compile Include="Mapping\Contrato_VendaMap.cs" />
+    <Compile Include="Mapping\DadosBancariosFornClienteMap.cs" />
+    <Compile Include="Mapping\Dados_BancariosMap.cs" />
+    <Compile Include="Mapping\EmpresaMap.cs" />
+    <Compile Include="Mapping\Forma_PgtoMap.cs" />
+    <Compile Include="Mapping\FuncionalidadeMap.cs" />
+    <Compile Include="Mapping\NcmMap.cs" />
+    <Compile Include="Mapping\Ordem_ServicoMap.cs" />
+    <Compile Include="Mapping\ParcelamentoMap.cs" />
+    <Compile Include="Mapping\PerfilMap.cs" />
+    <Compile Include="Mapping\PeriodicidadeMap.cs" />
+    <Compile Include="Mapping\PessoaFisicaMap.cs" />
+    <Compile Include="Mapping\PessoaJuridicaMap.cs" />
+    <Compile Include="Mapping\ProdutoFornecedorMap.cs" />
+    <Compile Include="Mapping\ProdutoMap.cs" />
+    <Compile Include="Mapping\ServicoMap.cs" />
+    <Compile Include="Mapping\Status_ServicoMap.cs" />
+    <Compile Include="Mapping\Status_VendaMap.cs" />
+    <Compile Include="Mapping\Unidade_MedidaMap.cs" />
+    <Compile Include="Mapping\UsuarioMap.cs" />
+    <Compile Include="Mapping\VendaMap.cs" />
+    <Compile Include="Mapping\Venda_AtivosMap.cs" />
+    <Compile Include="Models\Ncm.cs" />
+    <Compile Include="Models\Ordem_Servico.cs" />
+    <Compile Include="Models\Parcelamento.cs" />
+    <Compile Include="Models\Perfil.cs" />
+    <Compile Include="Models\Periodicidade.cs" />
+    <Compile Include="Models\PessoaFisica.cs" />
+    <Compile Include="Models\PessoaJuridica.cs" />
+    <Compile Include="Models\Produto.cs" />
+    <Compile Include="Models\ProdutoFornecedor.cs" />
+    <Compile Include="Models\Servico.cs" />
+    <Compile Include="Models\Status_Servico.cs" />
+    <Compile Include="Models\Status_Venda.cs" />
+    <Compile Include="Context\SuperERPContext.cs" />
+    <Compile Include="Models\teste.cs" />
+    <Compile Include="Models\Unidade_Medida.cs" />
+    <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Models\Venda.cs" />
+    <Compile Include="Models\Venda_Ativos.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\IRepository.cs" />
+    <Compile Include="Repositories\PessoaFisicaRepositorio.cs" />
+    <Compile Include="Repositories\Repositorio.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
